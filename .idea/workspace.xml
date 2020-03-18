@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c43d6e8-5c67-4dce-86fe-e8bdea3469b7" name="Default Changelist" comment="" />
+    <list default="true" id="7c43d6e8-5c67-4dce-86fe-e8bdea3469b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZGldoXAz8ZWTTxn8FF51VNRWqr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -155,14 +166,30 @@
       <workItem from="1584473403898" duration="5776000" />
       <workItem from="1584528265448" duration="2875000" />
       <workItem from="1584536614495" duration="5160000" />
-      <workItem from="1584547995963" duration="9596000" />
+      <workItem from="1584547995963" duration="9891000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit final.">
+      <created>1584562261111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584562261112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit final." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit final." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="169" width="806" height="674" key="#Notifications" timestamp="1584562347091">
+      <screen x="0" y="139" width="1366" height="768" />
+    </state>
+    <state x="278" y="169" width="806" height="674" key="#Notifications/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584562347091" />
     <state x="45" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584538119996">
       <screen x="0" y="139" width="1366" height="768" />
     </state>
@@ -172,10 +199,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1921" y="202" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584473826848" />
-    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2" timestamp="1584562135833">
+    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2" timestamp="1584562259568">
       <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584562135833" />
+    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584562259568" />
     <state width="906" height="381" key="GridCell.Tab.0.bottom" timestamp="1584560934206">
       <screen x="0" y="139" width="1366" height="768" />
     </state>
@@ -216,6 +243,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1822" y="176" width="1030" height="842" key="SettingsEditor/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475046798" />
+    <state x="278" y="244" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1584562329345">
+      <screen x="0" y="139" width="1366" height="768" />
+    </state>
+    <state x="278" y="244" width="806" height="525" key="Vcs.Push.Dialog.v2/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584562329345" />
     <state x="455" y="401" key="com.intellij.ide.util.TipDialog" timestamp="1584547994834">
       <screen x="0" y="139" width="1366" height="768" />
     </state>

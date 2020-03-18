@@ -6,25 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35f86756-32d9-4c8d-a14d-ceda0eff851a" name="Default Changelist" comment="" />
+    <list default="true" id="7c43d6e8-5c67-4dce-86fe-e8bdea3469b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,21 +19,36 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1Y76Tj5iIe27XIEz79ZANM6fwn3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZGldoXAz8ZWTTxn8FF51VNRWqr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Área de Trabalho/agendamentoemail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunManager">
-    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/agendamentoemail-0.0.1-SNAPSHOT/" />
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="agendamentoemail:war">
@@ -59,12 +60,12 @@
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
         <option name="SERVER_GROUP" value="main-server-group" />
-        <option name="USERNAME" value="admin" />
-        <option name="CREDENTIAL_ALIAS" value="39a65f7a-0f5c-4ecf-8fff-5cab58dd9e00" />
+        <option name="USERNAME" value="agendamento" />
+        <option name="CREDENTIAL_ALIAS" value="59c49d58-504c-4bcb-8764-09c374f74e01" />
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35763" />
+        <option name="DEBUG_PORT" value="44219" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -99,8 +100,8 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="$PROJECT_DIR$/../wildfly-18.0.1.Final/standalone/configuration/standalone-full.xml" />
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
@@ -123,7 +124,6 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.02007722" />
           <treeState>
             <expand>
               <path>
@@ -133,12 +133,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -152,14 +147,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35f86756-32d9-4c8d-a14d-ceda0eff851a" name="Default Changelist" comment="" />
-      <created>1582281294635</created>
+      <changelist id="7c43d6e8-5c67-4dce-86fe-e8bdea3469b7" name="Default Changelist" comment="" />
+      <created>1584473401616</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582281294635</updated>
-      <workItem from="1582281312320" duration="8262000" />
-      <workItem from="1582319959264" duration="1163000" />
-      <workItem from="1582758354465" duration="83000" />
+      <updated>1584473401616</updated>
+      <workItem from="1584473403898" duration="5776000" />
+      <workItem from="1584528265448" duration="2875000" />
+      <workItem from="1584536614495" duration="5160000" />
+      <workItem from="1584547995963" duration="9596000" />
     </task>
     <servers />
   </component>
@@ -167,53 +163,89 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="167" width="1372" height="771" key="#JBoss_18.0.1.Final" timestamp="1582321263717">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="45" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584538119996">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="314" y="167" width="1372" height="771" key="#JBoss_18.0.1.Final/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582321263717" />
-    <state x="2198" y="227" width="806" height="674" key="#JBoss_Server" timestamp="1582758406601">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state x="45" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584538119996" />
+    <state x="1784" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475170812" />
+    <state x="1921" y="202" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1584473826848">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2198" y="227" width="806" height="674" key="#JBoss_Server/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582758406601" />
-    <state x="2318" y="186" width="566" height="757" key="#agendamentoEmail" timestamp="1582290048602">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state x="1921" y="202" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584473826848" />
+    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2" timestamp="1584562135833">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="2318" y="186" width="566" height="757" key="#agendamentoEmail/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582290048602" />
-    <state x="2066" y="200" width="806" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582758407735">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state x="0" y="139" width="1366" height="738" key="CommitChangelistDialog2/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584562135833" />
+    <state width="906" height="381" key="GridCell.Tab.0.bottom" timestamp="1584560934206">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="2066" y="200" width="806" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582758407735" />
-    <state x="2411" y="253" width="380" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1582285293920">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="906" height="381" key="GridCell.Tab.0.bottom/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584560934206" />
+    <state width="1287" height="564" key="GridCell.Tab.0.bottom/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584547841509" />
+    <state width="906" height="381" key="GridCell.Tab.0.center" timestamp="1584560934206">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="2411" y="253" width="380" height="623" key="#com.intellij.ide.util.MemberChooser/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582285293920" />
-    <state x="2196" y="226" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1582321181296">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="906" height="381" key="GridCell.Tab.0.center/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584560934206" />
+    <state width="1287" height="564" key="GridCell.Tab.0.center/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584547841508" />
+    <state width="906" height="381" key="GridCell.Tab.0.left" timestamp="1584560934206">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="2196" y="226" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582321181296" />
-    <state x="2384" y="309" width="430" height="507" key="FileChooserDialogImpl" timestamp="1582758436342">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="906" height="381" key="GridCell.Tab.0.left/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584560934206" />
+    <state width="1287" height="564" key="GridCell.Tab.0.left/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584547841508" />
+    <state width="906" height="381" key="GridCell.Tab.0.right" timestamp="1584560934206">
+      <screen x="0" y="139" width="1366" height="768" />
     </state>
-    <state x="2384" y="309" width="430" height="507" key="FileChooserDialogImpl/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582758436342" />
-    <state width="1268" height="429" key="GridCell.Tab.0.bottom" timestamp="1582291195453">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="906" height="381" key="GridCell.Tab.0.right/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584560934206" />
+    <state width="1287" height="564" key="GridCell.Tab.0.right/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584547841508" />
+    <state width="1294" height="826" key="GridCell.Tab.1.bottom" timestamp="1584475177372">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1268" height="429" key="GridCell.Tab.0.bottom/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582291195453" />
-    <state width="1268" height="429" key="GridCell.Tab.0.center" timestamp="1582291195453">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="1294" height="826" key="GridCell.Tab.1.bottom/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475177372" />
+    <state width="1294" height="826" key="GridCell.Tab.1.center" timestamp="1584475177371">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1268" height="429" key="GridCell.Tab.0.center/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582291195453" />
-    <state width="1268" height="429" key="GridCell.Tab.0.left" timestamp="1582291195452">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="1294" height="826" key="GridCell.Tab.1.center/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475177371" />
+    <state width="1294" height="826" key="GridCell.Tab.1.left" timestamp="1584475177371">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1268" height="429" key="GridCell.Tab.0.left/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582291195452" />
-    <state width="1268" height="429" key="GridCell.Tab.0.right" timestamp="1582291195453">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="1294" height="826" key="GridCell.Tab.1.left/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475177371" />
+    <state width="1294" height="826" key="GridCell.Tab.1.right" timestamp="1584475177372">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1268" height="429" key="GridCell.Tab.0.right/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582291195453" />
-    <state x="2282" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1582320130142">
-      <screen x="1920" y="181" width="1366" height="768" />
+    <state width="1294" height="826" key="GridCell.Tab.1.right/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475177372" />
+    <state x="1822" y="176" width="1030" height="842" key="SettingsEditor" timestamp="1584475046798">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2282" y="394" key="com.intellij.ide.util.TipDialog/1920.181.1366.768/0.0.1920.1080@1920.181.1366.768" timestamp="1582320130142" />
+    <state x="1822" y="176" width="1030" height="842" key="SettingsEditor/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584475046798" />
+    <state x="455" y="401" key="com.intellij.ide.util.TipDialog" timestamp="1584547994834">
+      <screen x="0" y="139" width="1366" height="768" />
+    </state>
+    <state x="455" y="401" key="com.intellij.ide.util.TipDialog/0.139.1366.768/1366.0.1920.1080@0.139.1366.768" timestamp="1584547994834" />
+    <state x="2005" y="369" key="com.intellij.ide.util.TipDialog/0.139.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584536616645" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
